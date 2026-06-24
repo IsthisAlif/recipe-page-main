@@ -6,3 +6,37 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.nutrition {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition tr {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.nutrition tr:last-child {
+  border-bottom: none;
+}
+
+.nutrition td {
+  padding: 12px 0;
+  font-size: 16px;
+}
+
+/* Left side labels */
+.nutrition td:first-child {
+  color: #666;
+}
+
+/* Right side values */
+.nutrition td:last-child {
+  text-align: right;
+  color: #7b3f2a; /* brown tone like your design */
+  font-weight: 600;
+}
